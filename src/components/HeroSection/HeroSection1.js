@@ -109,7 +109,7 @@ class HeroSection extends React.Component {
                     Watch Video Overview
                   </div>
 
-                  <a href="https://codecanyon.net/item/wayfar-parking-app-template/35617930"> 
+                  <a href={_data.consts.purchaseLink}> 
                     <button className="buy-btn mt-2">
                       Buy now for <span style={{ fontSize: '20px' }}> <strong> 39$ </strong> </span>
                     </button>

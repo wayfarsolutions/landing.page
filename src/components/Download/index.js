@@ -1,4 +1,6 @@
 import React from "react";
+import _data from "../../data";
+
 
 class Download extends React.Component {
   constructor(props) {
@@ -36,7 +38,7 @@ class Download extends React.Component {
                   </p>
 
                   <div className="download-btn d-flex flex-row align-items-center">
-                    <a href="https://firebasestorage.googleapis.com/v0/b/wayfar-7e6b9.appspot.com/o/wayfar.apk?alt=media&token=74e816bc-3fbc-4392-ad03-fc4032ab3af3" className="btn google-play-btn mr-3">
+                    <a href={_data.consts.apkDownload} className="btn google-play-btn mr-3">
                       <span className="ti-android"></span> For Android
                     </a>
                     <div style={{ opacity: 0.7, pointerEvents: 'none' }}>

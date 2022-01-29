@@ -1,5 +1,6 @@
 import React from "react";
 import { connect } from "react-redux";
+import  _data from "../../data"
 
 class Header extends React.Component {
   render() {
@@ -82,7 +83,7 @@ class Header extends React.Component {
                   </li>
                   
                   <li className="nav-item">
-                    <a className="nav-link page-scroll" href="https://docs.wayfarsolutions.com">
+                    <a className="nav-link page-scroll" href={_data.consts.docLink}>
                       Documentation
                     </a>
                   </li>

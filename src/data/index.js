@@ -1,7 +1,10 @@
 module.exports = {
   consts: {
-    youtubeVideo: "https://www.youtube.com/watch?v=8vMQ-fNCs5s"
-  },
+    youtubeVideo: "https://www.youtube.com/watch?v=8vMQ-fNCs5s",
+    purchaseLink: "https://1.envato.market/n1jLg9",
+    apkDownload: "https://firebasestorage.googleapis.com/v0/b/wayfar-7e6b9.appspot.com/o/wayfar.apk?alt=media&token=74e816bc-3fbc-4392-ad03-fc4032ab3af3",
+    docLink: "https://docs.wayfarsolutions.com"
+  },  
   hero: {
     title: "Brainstorming for desired perfect Usability",
     description:

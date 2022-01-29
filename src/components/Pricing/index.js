@@ -76,7 +76,7 @@ export default class Pricing extends React.Component {
                             })}
                           </ul>
                           <a
-                            href="/#"
+                            href={_data.consts.purchaseLink}
                             className={
                               "btn mb-3 " +
                               (_package.isFeatured
