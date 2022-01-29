@@ -17,7 +17,7 @@ const store = createStore(
 function App() {
   return (
     <Provider store={store}>
-      <Routes />
+      <Theme1 />
     </Provider>
   );
 }
